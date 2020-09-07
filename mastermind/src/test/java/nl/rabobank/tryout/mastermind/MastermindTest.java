@@ -2,17 +2,11 @@ package nl.rabobank.tryout.mastermind;
 
 import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
-public class MastermindTest
-{
-    /**
-     * Rigorous Test :-)
-     */
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class MastermindTest {
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assert( true );
+    public void shouldAnswerWithTrue() {
+        assertEquals(false, true);
     }
 }

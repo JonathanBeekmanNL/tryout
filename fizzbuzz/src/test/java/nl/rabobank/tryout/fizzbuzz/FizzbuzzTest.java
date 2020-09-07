@@ -2,17 +2,11 @@ package nl.rabobank.tryout.fizzbuzz;
 
 import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
-public class FizzbuzzTest
-{
-    /**
-     * Rigorous Test :-)
-     */
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class FizzbuzzTest {
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assert( true );
+    public void shouldAnswerWithTrue() {
+        assertEquals(true, true);
     }
 }
